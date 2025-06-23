@@ -93,10 +93,4 @@ class Membership:
         return discounted_price
 
 
-if __name__=="__main__":
-    user_ana = Membership("Shandy")
-    user_ana.show_benefit()
-    user_ana.show_requirement()
-    user_ana.predict_membership(9, 12)
-    # contoh penggunaan calculate_total_price
-    user_ana.calculate_price([150000, 200000, 400000])
+
